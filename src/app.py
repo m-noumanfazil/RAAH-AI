@@ -2,7 +2,7 @@ import streamlit as st
 import time
 import os
 import base64
-from src.backend import (
+from backend import (
     generate_next_question, 
     is_skill_vague, 
     get_clarification_question, 
