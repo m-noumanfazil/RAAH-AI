@@ -30,7 +30,7 @@ try:
 except Exception:
     hero_img_base64 = "" # Fallback if image missing
 
-st.set_page_config(page_title="RAAH AI - Your Career Roadmap", layout="wide")
+st.set_page_config(page_title="RAAH AI - Your Career Roadmap", page_icon="static/favicon.ico", layout="wide")
 # ---------------- SIDEBAR STYLING ----------------
 st.markdown("""
 <style>
